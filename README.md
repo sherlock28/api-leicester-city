@@ -17,7 +17,7 @@ datos obtenidos.
 
 ## Como usar
 
-*Tomando como ejemplo uno ejecución local, dispone de los siguientes endpoints:*
+*Tomando como ejemplo una ejecución local, dispone de los siguientes endpoints:*
 
 ### endpoints users
 
@@ -72,4 +72,4 @@ datos obtenidos.
 
 ## Aplicación
 
-Esta API se encuentra deplegada [API Leicester City](https://api-leicestercity.herokuapp.com/).
+Esta API se encuentra deplegada en: [API Leicester City](https://api-leicestercity.herokuapp.com/).
