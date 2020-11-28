@@ -10,7 +10,7 @@ import './database';
 
 /*Se define un cron que se ejecuta una vez al dia 
 a las 23:59*/
-cron.schedule('59 23 * * *', () => {
+cron.schedule('*/30 * * * *', () => {
     getMatch();
 });
 

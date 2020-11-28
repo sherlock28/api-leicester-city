@@ -22,7 +22,7 @@ export async function getMatch() {
     var lastMatchIdFromDB = lastMatch[0].matchId;
     let lastMatchIdFromPage = parseInt(matchesJSON[0].url.substring(27), 10);
 
-    if (lastMatchIdFromDB |= lastMatchIdFromPage) {
+    if (lastMatchIdFromDB != lastMatchIdFromPage) {
         const $$ = await request({
             uri: matchesJSON[0].url,
             transform: body => cheerio.load(body)
