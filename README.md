@@ -12,10 +12,14 @@ npm run init
 ```
 
 *Una vez se haya completado la carga de los datos ejecute el siguiente comando que correrá el servidor en modo de desarrollo*
-- `npm run dev`
+```
+npm run dev
+```
 
 *Si desea correrlo en modo de producción ejecute el siguiente comando que compilara el proyecto y seguido lo ejecutara*
-- `npm start`
+```
+npm start
+```
 
 ## Como usar
 
