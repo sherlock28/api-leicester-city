@@ -7,7 +7,9 @@ datos obtenidos.
 ## Instalación 
 
 *Primero debe cargar la db con los datos. Para ello ejecute el siguiente comando que hará el scraping, obtendrá los datos y los almacenara en la db.*
-- `npm run init`
+```
+npm run init
+```
 
 *Una vez se haya completado la carga de los datos ejecute el siguiente comando que correrá el servidor en modo de desarrollo*
 - `npm run dev`
