@@ -44,17 +44,17 @@ npm start
 
 - Para registrar un usuario:
   ```json
-  - `{`
+  - {
        "username": "username-example",
        "email": "email-example",
        "password": "password-example",
        "confirmpass": "confirm-example",
-    `}`
+    }
   ```
 
 - Para agregar un partido:
   ```json
-  - `{`
+  - {
        "homeTeam": "homeTeam-example",
        "awayTeam": "awayTeam-example",
        "description": "description-example",
@@ -65,7 +65,7 @@ npm start
        "homeScore": "homeScore-example",
        "awayScore": "awayScore-example",
        "matchId": "matchId-example",
-    `}`
+    }
   ```
 
 - El formato para las fechas:
