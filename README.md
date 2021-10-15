@@ -43,15 +43,17 @@ npm start
 ### Formatos de entrada de datos
 
 - Para registrar un usuario:
+  ```json
   - `{`
        `"username":` `"username-example",`
        `"email":` `"email-example",`
        `"password":` `"password-example",`
        `"confirmpass":` `"confirm-example",`
     `}`
-
+  ```
 
 - Para agregar un partido:
+  ```json
   - `{`
        `"homeTeam":` `"homeTeam-example",`
        `"awayTeam":` `"awayTeam-example",`
@@ -64,7 +66,7 @@ npm start
        `"awayScore":` `"awayScore-example",`
        `"matchId":` `"matchId-example",`
     `}`
-
+  ```
 
 - El formato para las fechas:
   - `yyyy-mm-dd`
