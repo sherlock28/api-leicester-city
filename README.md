@@ -28,18 +28,18 @@ npm start
 
 ### endpoints users
 ```
-- **[POST]** **http://localhost:4000/api/users/register** 
-- **[POST]** **http://localhost:4000/api/users/signin**
-- **[POST]** **http://localhost:4000/api/users/logout**
+- [POST] http://localhost:4000/api/users/register 
+- [POST] http://localhost:4000/api/users/signin
+- [POST] http://localhost:4000/api/users/logout
 ```
 ### endpoints matches ('$foo' se refiere a una variable)
 ```
-- **[GET]** **http://localhost:4000/api/matches/last**
-- **[GET]** **http://localhost:4000/api/matches/match/$matchId**
-- **[GET]** **http://localhost:4000/api/matches/start/$startdate/end/$enddate**
-- **[GET]** **http://localhost:4000/api/matches/points/start/$startdate/end/$enddate**
-- **[GET]** **http://localhost:4000/api/matches/mostgoals**
-- **[POST]** **http://localhost:4000/api/matches/new**
+- [GET]  http://localhost:4000/api/matches/last
+- [GET]  http://localhost:4000/api/matches/match/$matchId
+- [GET]  http://localhost:4000/api/matches/start/$startdate/end/$enddate
+- [GET]  http://localhost:4000/api/matches/points/start/$startdate/end/$enddate
+- [GET]  http://localhost:4000/api/matches/mostgoals
+- [POST] http://localhost:4000/api/matches/new
 ```
 ---
 
