@@ -45,26 +45,26 @@ npm start
 - Para registrar un usuario:
   ```json
   - `{`
-       `"username":` `"username-example",`
-       `"email":` `"email-example",`
-       `"password":` `"password-example",`
-       `"confirmpass":` `"confirm-example",`
+       "username": "username-example",
+       "email": "email-example",
+       "password": "password-example",
+       "confirmpass": "confirm-example",
     `}`
   ```
 
 - Para agregar un partido:
   ```json
   - `{`
-       `"homeTeam":` `"homeTeam-example",`
-       `"awayTeam":` `"awayTeam-example",`
-       `"description":` `"description-example",`
-       `"startDate":` `"startDate-example",`
-       `"eventStatus":` `"eventStatus-example",`
-       `"url":` `"url-example",`
-       `"competition":` `"competition-example",`
-       `"homeScore":` `"homeScore-example",`
-       `"awayScore":` `"awayScore-example",`
-       `"matchId":` `"matchId-example",`
+       "homeTeam": "homeTeam-example",
+       "awayTeam": "awayTeam-example",
+       "description": "description-example",
+       "startDate": "startDate-example",
+       "eventStatus": "eventStatus-example",
+       "url": "url-example",
+       "competition": "competition-example",
+       "homeScore": "homeScore-example",
+       "awayScore": "awayScore-example",
+       "matchId": "matchId-example",
     `}`
   ```
 
