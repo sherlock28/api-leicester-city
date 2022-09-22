@@ -14,8 +14,11 @@ cron.schedule('*/30 * * * *', () => {
     getMatch();
 });
 
-app.get('/', (req: Request, res: Response) => {
-    res.send('API LEICESTER CITY')
+app.get('/', (_: Request, res: Response) => {
+    return res.json({
+        "name": "API LEICESTER CITY",
+        "description": "REST API built with Expressjs, Typescript and MongoDB that performs web scraping https://www.lcfc.com and offers endpoints for querying the data obtained.",
+    });
 });
 
 app.listen(app.get('port'), () => {
